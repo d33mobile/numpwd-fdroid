@@ -12,7 +12,8 @@ code { background: #eee; padding: 0 .2rem; word-break: break-all; }
 <body>
 <h1>numpwd F-Droid repository</h1>
 <p>numpwd is a fork of FreeOTP that stores only key names. Tap a key, type a password and it shows
-the digits printed by <code>openssl passwd -6 -salt KEYNAME | tr -dc '[0-9]'</code>.</p>
+the six-character code printed by <code>openssl passwd -6 -salt KEYNAME | tr -dc '[0-9]' | head -c6</code>,
+with the whole digit string (the same pipeline without <code>head -c6</code>) below it.</p>
 <p><a href="fdroidrepos://d33mobile.github.io/numpwd-fdroid/repo?fingerprint=3f59cdb18ac033fb4d7fa118231442a4504c3721b68bab196c60b717f3e392f3">Add this repo to F-Droid</a>
 (open on the phone), or add it by hand:</p>
 <p>URL: <code>https://d33mobile.github.io/numpwd-fdroid/repo</code><br>
