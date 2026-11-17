@@ -14,7 +14,7 @@
       }
     },
     "address": "https://d33mobile.github.io/numpwd-fdroid/repo",
-    "timestamp": 1794938058000,
+    "timestamp": 1794945697000,
     "categories": {
       "Security": {
         "name": {
@@ -31,7 +31,7 @@
           "Security"
         ],
         "issueTracker": "https://github.com/d33mobile/numpwd/issues",
-        "lastUpdated": 1794937871000,
+        "lastUpdated": 1794945697000,
         "license": "Apache-2.0",
         "sourceCode": "https://github.com/d33mobile/numpwd",
         "screenshots": {
@@ -79,6 +79,32 @@
         "preferredSigner": "804cc87d1229a3b89c2904cd64a4061ba21d208fe7fc649a9a5c0fe2f9b62b44"
       },
       "versions": {
+        "95740ed2d020d04a36686f8337a6fcab1dbb8d68f52981367be74f4949587776": {
+          "added": 1794945697000,
+          "file": {
+            "name": "/net.d33.numpwd_3.apk",
+            "sha256": "95740ed2d020d04a36686f8337a6fcab1dbb8d68f52981367be74f4949587776",
+            "size": 5633190
+          },
+          "manifest": {
+            "versionName": "1.2",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "804cc87d1229a3b89c2904cd64a4061ba21d208fe7fc649a9a5c0fe2f9b62b44"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "net.d33.numpwd.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "8f0041f7bd0053ac86606f378b2ae4ec8405da181b645ca74ccebcdd35aa4cb7": {
           "added": 1794937871000,
           "file": {

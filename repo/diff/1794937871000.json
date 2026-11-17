@@ -6,11 +6,12 @@
         "size": 21399
       }
     },
-    "timestamp": 1794938058000
+    "timestamp": 1794945697000
   },
   "packages": {
     "net.d33.numpwd": {
       "metadata": {
+        "lastUpdated": 1794945697000,
         "screenshots": {
           "phone": {
             "en-US": [
@@ -48,6 +49,34 @@
             "name": "/net.d33.numpwd/en-US/icon_32WHD_Ia_z6HhdgJ3XNMFEPJeA5MFj0Xi51O7U-Mh8Q=.png",
             "sha256": "df65870ff21aff3e8785d809dd734c1443c9780e4c163d178b9d4eed4f8c87c4",
             "size": 20207
+          }
+        }
+      },
+      "versions": {
+        "95740ed2d020d04a36686f8337a6fcab1dbb8d68f52981367be74f4949587776": {
+          "added": 1794945697000,
+          "file": {
+            "name": "/net.d33.numpwd_3.apk",
+            "sha256": "95740ed2d020d04a36686f8337a6fcab1dbb8d68f52981367be74f4949587776",
+            "size": 5633190
+          },
+          "manifest": {
+            "versionName": "1.2",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "804cc87d1229a3b89c2904cd64a4061ba21d208fe7fc649a9a5c0fe2f9b62b44"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "net.d33.numpwd.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
           }
         }
       }
