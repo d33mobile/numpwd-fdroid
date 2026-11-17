@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1794936002000,
+    "timestamp": 1794937871000,
     "version": 20002,
     "name": "numpwd",
     "icon": "icon.png",
@@ -16,20 +16,42 @@
       "categories": [
         "Security"
       ],
-      "suggestedVersionCode": "1",
-      "description": "Fork of FreeOTP. The list holds only key names, never secrets. Tap a key,\ntype a password and numpwd shows the output of\n\nopenssl passwd -6 -salt KEYNAME | tr -dc '[0-9]'\n\nbyte for byte, with a copy button. The result closes after a minute and\nthe clipboard is cleared after 30 seconds.",
+      "suggestedVersionCode": "2",
       "issueTracker": "https://github.com/d33mobile/numpwd/issues",
       "license": "Apache-2.0",
-      "name": "numpwd",
       "sourceCode": "https://github.com/d33mobile/numpwd",
-      "summary": "Numeric passwords compatible with openssl passwd -6",
       "added": 1794936002000,
       "packageName": "net.d33.numpwd",
-      "lastUpdated": 1794936002000
+      "lastUpdated": 1794937871000,
+      "localized": {
+        "en-US": {
+          "name": "numpwd"
+        }
+      }
     }
   ],
   "packages": {
     "net.d33.numpwd": [
+      {
+        "added": 1794937871000,
+        "apkName": "net.d33.numpwd_2.apk",
+        "hash": "8f0041f7bd0053ac86606f378b2ae4ec8405da181b645ca74ccebcdd35aa4cb7",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "packageName": "net.d33.numpwd",
+        "sig": "d07a35008cc3f07da3385d92d2f89452",
+        "signer": "804cc87d1229a3b89c2904cd64a4061ba21d208fe7fc649a9a5c0fe2f9b62b44",
+        "size": 5633094,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "net.d33.numpwd.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 2,
+        "versionName": "1.1"
+      },
       {
         "added": 1794936002000,
         "apkName": "net.d33.numpwd_1.apk",

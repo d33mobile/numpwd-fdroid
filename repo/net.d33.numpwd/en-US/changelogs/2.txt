@@ -1,0 +1,5 @@
+* Removed the remaining FreeOTP code; the app needs no permissions.
+* Own launcher icon.
+* Password and result dialogs block screenshots; the password is excluded from autofill.
+* The digits are shown in full contrast.
+* targetSdk 36.

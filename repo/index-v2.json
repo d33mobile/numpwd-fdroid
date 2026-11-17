@@ -14,7 +14,7 @@
       }
     },
     "address": "https://d33mobile.github.io/numpwd-fdroid/repo",
-    "timestamp": 1794936002000,
+    "timestamp": 1794937871000,
     "categories": {
       "Security": {
         "name": {
@@ -31,21 +31,41 @@
           "Security"
         ],
         "issueTracker": "https://github.com/d33mobile/numpwd/issues",
-        "lastUpdated": 1794936002000,
+        "lastUpdated": 1794937871000,
         "license": "Apache-2.0",
         "sourceCode": "https://github.com/d33mobile/numpwd",
         "name": {
           "en-US": "numpwd"
         },
-        "summary": {
-          "en-US": "Numeric passwords compatible with openssl passwd -6"
-        },
-        "description": {
-          "en-US": "Fork of FreeOTP. The list holds only key names, never secrets. Tap a key,\ntype a password and numpwd shows the output of\n\nopenssl passwd -6 -salt KEYNAME | tr -dc '[0-9]'\n\nbyte for byte, with a copy button. The result closes after a minute and\nthe clipboard is cleared after 30 seconds."
-        },
         "preferredSigner": "804cc87d1229a3b89c2904cd64a4061ba21d208fe7fc649a9a5c0fe2f9b62b44"
       },
       "versions": {
+        "8f0041f7bd0053ac86606f378b2ae4ec8405da181b645ca74ccebcdd35aa4cb7": {
+          "added": 1794937871000,
+          "file": {
+            "name": "/net.d33.numpwd_2.apk",
+            "sha256": "8f0041f7bd0053ac86606f378b2ae4ec8405da181b645ca74ccebcdd35aa4cb7",
+            "size": 5633094
+          },
+          "manifest": {
+            "versionName": "1.1",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "804cc87d1229a3b89c2904cd64a4061ba21d208fe7fc649a9a5c0fe2f9b62b44"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "net.d33.numpwd.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "da7867438db70622e4f10ad435ef5340752c141fa2ad5d58e24755e78fc8fae5": {
           "added": 1794936002000,
           "file": {
