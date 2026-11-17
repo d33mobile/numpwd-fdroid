@@ -1,0 +1,111 @@
+{
+  "repo": {
+    "name": {
+      "en-US": "numpwd"
+    },
+    "description": {
+      "en-US": "numpwd, a FreeOTP fork that derives numeric passwords compatible with openssl passwd -6 -salt KEYNAME | tr -dc '[0-9]'."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "4e47c8da3d5b63b75f72c81667398fc990067d7f87894148478630015a885dae",
+        "size": 842
+      }
+    },
+    "address": "https://d33mobile.github.io/numpwd-fdroid/repo",
+    "timestamp": 1794936002000,
+    "categories": {
+      "Security": {
+        "name": {
+          "en-US": "Security"
+        }
+      }
+    }
+  },
+  "packages": {
+    "net.d33.numpwd": {
+      "metadata": {
+        "added": 1794936002000,
+        "categories": [
+          "Security"
+        ],
+        "issueTracker": "https://github.com/d33mobile/numpwd/issues",
+        "lastUpdated": 1794936002000,
+        "license": "Apache-2.0",
+        "sourceCode": "https://github.com/d33mobile/numpwd",
+        "name": {
+          "en-US": "numpwd"
+        },
+        "summary": {
+          "en-US": "Numeric passwords compatible with openssl passwd -6"
+        },
+        "description": {
+          "en-US": "Fork of FreeOTP. The list holds only key names, never secrets. Tap a key,\ntype a password and numpwd shows the output of\n\nopenssl passwd -6 -salt KEYNAME | tr -dc '[0-9]'\n\nbyte for byte, with a copy button. The result closes after a minute and\nthe clipboard is cleared after 30 seconds."
+        },
+        "preferredSigner": "804cc87d1229a3b89c2904cd64a4061ba21d208fe7fc649a9a5c0fe2f9b62b44"
+      },
+      "versions": {
+        "da7867438db70622e4f10ad435ef5340752c141fa2ad5d58e24755e78fc8fae5": {
+          "added": 1794936002000,
+          "file": {
+            "name": "/net.d33.numpwd_1.apk",
+            "sha256": "da7867438db70622e4f10ad435ef5340752c141fa2ad5d58e24755e78fc8fae5",
+            "size": 9378188
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "804cc87d1229a3b89c2904cd64a4061ba21d208fe7fc649a9a5c0fe2f9b62b44"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_CONNECT"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_ADMIN"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_SCAN"
+              },
+              {
+                "name": "android.permission.BLUETOOTH"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "net.d33.numpwd.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

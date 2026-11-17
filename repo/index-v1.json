@@ -1,0 +1,97 @@
+{
+  "repo": {
+    "timestamp": 1794936002000,
+    "version": 20002,
+    "name": "numpwd",
+    "icon": "icon.png",
+    "address": "https://d33mobile.github.io/numpwd-fdroid/repo",
+    "description": "numpwd, a FreeOTP fork that derives numeric passwords compatible with openssl passwd -6 -salt KEYNAME | tr -dc '[0-9]'."
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "categories": [
+        "Security"
+      ],
+      "suggestedVersionCode": "1",
+      "description": "Fork of FreeOTP. The list holds only key names, never secrets. Tap a key,\ntype a password and numpwd shows the output of\n\nopenssl passwd -6 -salt KEYNAME | tr -dc '[0-9]'\n\nbyte for byte, with a copy button. The result closes after a minute and\nthe clipboard is cleared after 30 seconds.",
+      "issueTracker": "https://github.com/d33mobile/numpwd/issues",
+      "license": "Apache-2.0",
+      "name": "numpwd",
+      "sourceCode": "https://github.com/d33mobile/numpwd",
+      "summary": "Numeric passwords compatible with openssl passwd -6",
+      "added": 1794936002000,
+      "packageName": "net.d33.numpwd",
+      "lastUpdated": 1794936002000
+    }
+  ],
+  "packages": {
+    "net.d33.numpwd": [
+      {
+        "added": 1794936002000,
+        "apkName": "net.d33.numpwd_1.apk",
+        "hash": "da7867438db70622e4f10ad435ef5340752c141fa2ad5d58e24755e78fc8fae5",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "net.d33.numpwd",
+        "sig": "d07a35008cc3f07da3385d92d2f89452",
+        "signer": "804cc87d1229a3b89c2904cd64a4061ba21d208fe7fc649a9a5c0fe2f9b62b44",
+        "size": 9378188,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_CONNECT",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_ADMIN",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_SCAN",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "net.d33.numpwd.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 1,
+        "versionName": "1.0"
+      }
+    ]
+  }
+}
