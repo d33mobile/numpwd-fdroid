@@ -14,7 +14,7 @@
       }
     },
     "address": "https://d33mobile.github.io/numpwd-fdroid/repo",
-    "timestamp": 1794950624000,
+    "timestamp": 1794952978000,
     "categories": {
       "Security": {
         "name": {
@@ -31,7 +31,7 @@
           "Security"
         ],
         "issueTracker": "https://github.com/d33mobile/numpwd/issues",
-        "lastUpdated": 1794950624000,
+        "lastUpdated": 1794952978000,
         "license": "Apache-2.0",
         "sourceCode": "https://github.com/d33mobile/numpwd",
         "screenshots": {
@@ -84,6 +84,38 @@
         "preferredSigner": "804cc87d1229a3b89c2904cd64a4061ba21d208fe7fc649a9a5c0fe2f9b62b44"
       },
       "versions": {
+        "617966949f53125df135d2cd9aa7aa53eedd8e4e90b008f1051c13283e384db0": {
+          "added": 1794952978000,
+          "file": {
+            "name": "/net.d33.numpwd_6.apk",
+            "sha256": "617966949f53125df135d2cd9aa7aa53eedd8e4e90b008f1051c13283e384db0",
+            "size": 5783125
+          },
+          "manifest": {
+            "versionName": "1.5",
+            "versionCode": 6,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "804cc87d1229a3b89c2904cd64a4061ba21d208fe7fc649a9a5c0fe2f9b62b44"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "net.d33.numpwd.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "b0d980b0146fdca5190234ae9aed9f9e0aeb9e76894ad3330717d4600a123cdb": {
           "added": 1794950624000,
           "file": {
